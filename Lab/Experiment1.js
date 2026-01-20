@@ -42,7 +42,7 @@ const age = 20;
 document.write("Student Information...<br>")
 console.log("Student Information...")
 document.write("Name : "+firstName +" "+ lastName+"<br>")
-console.log("Name : "+firstName +" "+ lastName+"<br>")
+console.log("Name : "+firstName +" "+ lastName)
 document.write("Age : ",age)
 console.log("Age : ",age)
 
