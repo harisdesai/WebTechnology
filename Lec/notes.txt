@@ -2,3 +2,12 @@
 
 What is node js and js?
 what is diff betn const,var,let?
+
+
+DOM- document object model
+-bridge btwn js and html
+-it is a programing interface in html
+-when browser loads an html page it converts html in to an object,
+ that obj struct is called DOM
+-js uses dom to read delete add change html elements 
+-
