@@ -1,2 +1,10 @@
 *Express* is a minimal and flexible framework for node js that simplifies the development of web servers and API
 -it provides features such as routing, middleware support, request and response handling, template rendering, rest api creation.
+
+ACTIVITY 1 - Diff betn package.json and package-lock.json
+ACTIVITY 2 - Diff betn dependencies and devDependencies
+
+ROUTING IN EXPRESS - it refers to determining how an application responds to a client request to a specific URI (or path) and a specific HTTP request method (GET, POST, etc.).
+    components of routing - url path, http methods, handler methods
+
+ACTIVITY 3 - integrate javascript in express
