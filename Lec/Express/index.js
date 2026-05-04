@@ -22,10 +22,19 @@ app.get('/pricing', (req, res) => {
     res.send("You can check the Pricing here");
 });
 
+app.get('/time', (req, res) => {
+    const T = new Date();
+    res.json({mess:"Hello", time: T});
+});
+
 app.listen(port, () => {
   console.log(`Example app listening on port http://localhost:${port}`)
 })
 
 app.listen(port, () => {
   console.log(`Example app listening on port http://localhost:${port}/about`)
+})
+
+app.listen(port, () => {
+  console.log(`Example app listening on port http://localhost:${port}/time`)
 })

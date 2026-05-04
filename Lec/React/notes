@@ -1,0 +1,1 @@
+State - data that can change, value that changes over time. when state changes UI updates automatically.

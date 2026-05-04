@@ -8,3 +8,14 @@ ROUTING IN EXPRESS - it refers to determining how an application responds to a c
     components of routing - url path, http methods, handler methods
 
 ACTIVITY 3 - integrate javascript in express
+
+template engines - it allows us to generate dynamic HTML pages using data from the server.
+                 - instead static html pages are created dynamically.
+                 - ejs, pug, handlebars
+                 - they help in dynamic content, code reusability, separate logic of html.
+
+ACTIVITES - 
+1. experiment with ejs
+2. static files in express
+3. express router
+4. complete express flow

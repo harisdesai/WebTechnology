@@ -1,0 +1,69 @@
+sql = STRUCTURE query language 
+is used to communicate between real time database
+sql ------> 
+MySQL
+Postgre
+SQLServer
+
+
+real time example ---->
+banking,
+
+
+SQL ---> add,update,delete
+
+
+what is store procedure ?
+what is View ?
+
+Activities---->
+create table , insert table , select , update table , delete table 
+
+web scoket ---->
+
+ORM ----> object relational mapping
+instead of writing sql query we use js object 
+
+web socket allows as real time communication 
+HTTP -----> (client )request , response
+wen socket ---> continuos connection
+
+real time ex--->
+live stock price update
+chat app __whatsapp
+online gaming
+notification
+
+if we install web socket-------> 
+npm install w s 
+
+Activities---->
+deep study web socket 
+understand concept with example
+
+What is WebSocket?
+WebSocket is a protocol that allows real-time, two-way (full duplex) communication between:
+Client (browser)
+Server
+Unlike HTTP:
+HTTP = request → response (one-time)
+WebSocket = continuous connection
+
+Step-by-step:
+Client sends HTTP request (handshake)
+Server upgrades connection to WebSocket
+Connection stays open
+Data can flow both ways anytime
+
+ex--->
+const socket = new WebSocket("ws://localhost:3000");
+socket.onopen = () => {
+  console.log("Connected to server");
+  socket.send("Hello Server");
+};
+socket.onmessage = (event) => {
+  console.log("Message from server:", event.data);
+};
+socket.onclose = () => {
+  console.log("Connection closed");
+};

@@ -1,0 +1,17 @@
+what is ORM?
+instead of writing SQL querries we use javascript objects to interact with the database
+eg. select * from Student
+    select from all
+
+websocket - it allows us realtime communication
+HTTPS --> req and res
+web socket --> cotinuous connection
+eg. chat apps - wp
+    online gaming
+    notification
+
+cmd --> npm install ws
+
+Activities -->
+    deep study websocket
+    understand websocket with an eg.
